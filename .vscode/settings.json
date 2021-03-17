@@ -1,0 +1,12 @@
+{
+  "git.ignoreLimitWarning": true,
+  "files.exclude": {
+    "node_modules": true,
+    "*.tgz": true
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  }
+}
