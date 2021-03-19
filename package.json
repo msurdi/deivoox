@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node ./bin/deivoox.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -25,5 +26,9 @@
     "helmet": "^4.4.1",
     "lodash": "^4.17.21",
     "morgan": "^1.10.0"
+  },
+  "engines": {
+    "node": ">= 15",
+    "npm": ">= 7"
   }
 }
