@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./bin/deivoox.js",
-    "dev": "nodemon --exec ./bin/deivoox.js --watch bin --watch lib",
+    "dev": "nodemon --exec 'node --inspect ./bin/deivoox.js' --watch bin --watch lib",
     "deploy": "git push heroku",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
