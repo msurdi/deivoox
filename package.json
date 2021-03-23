@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./bin/deivoox.js",
     "dev": "nodemon --exec 'node --inspect ./bin/deivoox.js' --watch bin --watch lib",
-    "deploy": "git push heroku",
+    "deploy": "git push heroku --force",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
