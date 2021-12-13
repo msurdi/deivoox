@@ -30,7 +30,8 @@
     "got": "^11.8.2",
     "helmet": "^4.6.0",
     "lodash": "^4.17.21",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "playwright-chromium": "^1.17.1"
   },
   "engines": {
     "node": ">= 15",
