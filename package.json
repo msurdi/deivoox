@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "playwright install",
     "start": "node ./bin/deivoox.js",
     "dev": "nodemon --exec 'node --inspect ./bin/deivoox.js' --watch bin --watch lib",
     "deploy": "git push heroku --force",
