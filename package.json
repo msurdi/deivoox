@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "playwright install",
     "start": "node ./bin/deivoox.js",
     "dev": "nodemon --exec 'node --inspect ./bin/deivoox.js' --watch bin --watch lib",
-    "deploy": "git push heroku --force",
+    "deploy": "flyctl deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -35,7 +34,7 @@
     "playwright-chromium": "^1.17.1"
   },
   "engines": {
-    "node": ">= 15",
+    "node": ">= 18",
     "npm": ">= 7"
   }
 }
