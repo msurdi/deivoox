@@ -1,16 +1,11 @@
 # Deivoox
 
-I love the [A Ciencia Cierta](https://www.cvradio.es/podcasts-a-ciencia-cierta/)
-podcast, but the episodes are only available via [ivoox](https://www.ivoox.com),
-which restricts which episodes you can listen to and/or the lenght of them if
-you are not using their own App.
+This application is a simple wrapper on top of [Ivoox](https://www.ivoox.com/en/) to create feeds of full length episodes that can be used
+from any Podcast App.
 
-Given I use a different one (and I like it), I've created this quick'n dirty
-script which will parse the list of episodes and create a custom feed containing
-the full episodes list and at full length.
+## Usage
 
-## Running this application
-
-1. Install the dependencies with `npm install`
-2. Start it with `npm start`
-3. The feed will be available at `/feed.xml`
+1. run `npm install`
+2. run `npm start`
+3. Subscribe to any feed by using the public channel url, such as `https://www.ivoox.com/en/podcast-a-ciencia-cierta_sq_f1286369_1.html` like `http://127.0.0.1/ivoox.xml?channel=https://www.ivoox.com/en/podcast-a-ciencia-cierta_sq_f1286369_1.html`
+4. You will get a feed with complete episodes to which you can subscribe from any Podcast app
