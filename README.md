@@ -1,6 +1,6 @@
 # Deivoox
 
-This application is a simple wrapper on top of [Ivoox](https://www.ivoox.com/en/) to create feeds of full length episodes that can be used
+This application is a simple wrapper on top of [iVoox](https://www.ivoox.com/en/) to create feeds of full length episodes that can be used
 from any Podcast App.
 
 ## Usage
